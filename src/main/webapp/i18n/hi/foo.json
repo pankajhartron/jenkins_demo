@@ -1,0 +1,20 @@
+{
+    "myappApp": {
+        "foo" : {
+            "home": {
+                "title": "Foos",
+                "createLabel": "नया Foo बनाएँ",
+                "createOrEditLabel": "Foo बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Foo [identifier: {{ param }}] तैयार है",
+            "updated": "एक Foo [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Foo [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Foo [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Foo"
+            }
+        }
+    }
+}

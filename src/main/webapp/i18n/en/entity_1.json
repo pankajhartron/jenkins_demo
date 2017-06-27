@@ -1,0 +1,21 @@
+{
+    "myappApp": {
+        "entity_1" : {
+            "home": {
+                "title": "Entity 1 S",
+                "createLabel": "Create a new Entity 1",
+                "createOrEditLabel": "Create or edit a Entity 1"
+            },
+            "created": "A new Entity 1 is created with identifier {{ param }}",
+            "updated": "A Entity 1 is updated with identifier {{ param }}",
+            "deleted": "A Entity 1 is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Entity 1 {{ id }}?"
+            },
+            "detail": {
+                "title": "Entity 1"
+            },
+            "username": "Username"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "username",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170627073838",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "entity_2",
+    "pagination": "no"
+}

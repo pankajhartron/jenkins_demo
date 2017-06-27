@@ -1,0 +1,21 @@
+{
+    "myappApp": {
+        "entity_2" : {
+            "home": {
+                "title": "Entity_2S",
+                "createLabel": "नया Entity 2 बनाएँ",
+                "createOrEditLabel": "Entity 2 बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Entity 2 [identifier: {{ param }}] तैयार है",
+            "updated": "एक Entity 2 [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Entity 2 [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Entity 2 [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Entity 2"
+            },
+            "username": "Username"
+        }
+    }
+}
