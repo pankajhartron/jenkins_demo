@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # myapp
 This application was generated using JHipster 4.5.6, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.5.6](https://jhipster.github.io/documentation-archive/v4.5.6).
 
@@ -115,3 +116,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Protractor]: https://angular.github.io/protractor/
 [Leaflet]: http://leafletjs.com/
 [DefinitelyTyped]: http://definitelytyped.org/
+=======
+# jenkins_demo
+>>>>>>> 2c9d98777556340a147997e4b6fce4f99dcfad15
