@@ -1,0 +1,34 @@
+version: '2'
+services:
+    myapp-app:
+        image: myapp
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/eureka
+            - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/config
+            - SPRING_DATA_CASSANDRA_CONTACTPOINTS=myapp-cassandra
+            - JHIPSTER_SLEEP=30
+            - JHIPSTER_REGISTRY_PASSWORD=panku123
+        ports:
+            - 8080:8080
+    myapp-cassandra-node:
+        image: cassandra:3.9
+        environment:
+            - CASSANDRA_SEEDS=myapp-cassandra
+    myapp-cassandra-migration:
+        environment:
+            - CASSANDRA_CONTACT_POINT=myapp-cassandra
+            - USER=docker-cassandra-migration
+            - CREATE_KEYSPACE_SCRIPT=create-keyspace-prod.cql
+        build:
+            context: src/main/docker
+            dockerfile: cassandra/Cassandra-Migration.Dockerfile
+        volumes:
+            - src/main/resources/config/cql:/cql:ro
+    myapp-cassandra:
+        image: cassandra:3.9
+    
+    jhipster-registry:
+        extends:
+            file: jhipster-registry.yml
+            service: jhipster-registry

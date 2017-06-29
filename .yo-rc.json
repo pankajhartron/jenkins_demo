@@ -189,6 +189,12 @@
     "languages": [
       "en",
       "hi"
-    ]
+    ],
+    "appsFolders": [
+      "myapp"
+    ],
+    "directoryPath": "../",
+    "monitoring": "no",
+    "adminPassword": "panku123"
   }
 }

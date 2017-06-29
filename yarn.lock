@@ -7016,7 +7016,7 @@ request-progress@~2.0.1:
   dependencies:
     throttleit "^1.0.0"
 
-request@2, request@^2.40.0, request@^2.61.0, request@^2.74.0, request@~2.74.0:
+request@2, request@^2.40.0, request@^2.55.0, request@^2.61.0, request@^2.74.0, request@~2.74.0:
   version "2.74.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.74.0.tgz#7693ca768bbb0ea5c8ce08c084a45efa05b892ab"
   dependencies:
@@ -7066,7 +7066,7 @@ request@2.65.0:
     tough-cookie "~2.2.0"
     tunnel-agent "~0.4.1"
 
-request@^2.55.0, request@^2.81.0:
+request@^2.81.0:
   version "2.81.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
   dependencies:
@@ -9294,7 +9294,7 @@ yo@1.8.5:
     yeoman-environment "^1.6.1"
     yosay "^1.0.0"
 
-yosay@1.0.2:
+yosay@1.0.2, yosay@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/yosay/-/yosay-1.0.2.tgz#cf1f487ed56f254ee4914283de853bd0d1bd096a"
   dependencies:
@@ -9308,24 +9308,9 @@ yosay@1.0.2:
     taketalk "^1.0.0"
     word-wrap "^1.0.0"
 
-yosay@1.2.0:
+yosay@1.2.0, yosay@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/yosay/-/yosay-1.2.0.tgz#34ac105e02d019c07ae7ab8c63ab43aeaad4c615"
-  dependencies:
-    ansi-regex "^2.0.0"
-    ansi-styles "^2.0.0"
-    chalk "^1.0.0"
-    cli-boxes "^1.0.0"
-    pad-component "0.0.1"
-    repeating "^2.0.0"
-    string-width "^1.0.0"
-    strip-ansi "^3.0.0"
-    taketalk "^1.0.0"
-    wrap-ansi "^2.0.0"
-
-yosay@^1.0.0, yosay@^1.0.2:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/yosay/-/yosay-1.2.1.tgz#9466ef969830e85b474e267b50f7688693ed3b5b"
   dependencies:
     ansi-regex "^2.0.0"
     ansi-styles "^2.0.0"
